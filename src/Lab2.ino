@@ -12,6 +12,7 @@ void loop()
   value = analogRead(A5);
   delay(value);
   digitalWrite(D5, LOW);
+  Serial.println(value);
   value = analogRead(A5);
   delay(value);
   digitalWrite(D5, HIGH);
